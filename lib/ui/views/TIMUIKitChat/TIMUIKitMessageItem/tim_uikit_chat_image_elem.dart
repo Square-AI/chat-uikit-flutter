@@ -526,7 +526,7 @@ class _TIMUIKitImageElem extends TIMUIKitState<TIMUIKitImageElem> {
         children: [
           if (positionRadio != null)
             AspectRatio(
-              aspectRatio: (currentPositionRadio ?? positionRadio)!,
+              aspectRatio: (currentPositionRadio ?? positionRadio),
               child: Container(
                 decoration: const BoxDecoration(color: Colors.transparent),
               ),
